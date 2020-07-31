@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Control Respirador</string>
+    <string name="frecuencia">Frecuencia</string>
+    <string name="girar">GIRAR</string>
+    <string name="menu">Menu</string>
+    <string name="informacion_del_respirador">Informacion del respirador</string>
+    <string name="informacion">INFORMACION</string>
+    <string name="control">CONTROL</string>
+    <string name="FRECUENCIA">FRECUENCIA</string>
+    <string name="ENVIAR">ENVIAR</string>
+    <string name="MONITOR">MONITOR</string>
+    <string name="giro_de_la_bomba">Giro de la bomba</string>
+    <string name="enviar">enviar</string>
+    <string name="SINCRONIZAR">SINCRONIZAR</string>
+    <string name="FECHA">fecha actual</string>
+    <string name="Tiempo_Sincronizando">tiempo sincronizando</string>
+    <string name="numero_intentos">intento de sincronizar</string>
+    <string name="intentos">intentos</string>
+    <string name="title_activity_sincronizar__bt">Sincronizar_BT</string>
+    <string name="title_activity_bluetooth">Bluetooth</string>
+    <string name="ver_dispositivos">VER DISPOSITIVOS</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_prueba__navigation">prueba_Navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="Volumen">Volumen</string>
+    <string name="RespiracionPorMinutos">Respiracion/Minutos</string>
+    <string name="Inspiracion">Inspiracion</string>
+    <string name="espiracion">Espiracion</string>
+    <string name="sensores">Sensores</string>
+    <string name="presion">Presion</string>
+    <string name="oxigeno">Oxigeno</string>
+    <string name="graficas">Graficas</string>
+    <string name="menu_send">menu_send</string>
+    <string name="InformacionUX">1) PRESIONE EL BOTON SUPERIOR PARA COMENZAR                </string>
+    <string name="InformacionUX1">2) SELECCIONE EL DISPOSITIVO MÉDICO  </string>
+    <string name="InformacionUX2">3) INTRODUZCA LOS VALORES INDICADOS EN FRECUENCIA  </string>
+    <string name="InformacionUX3">4) REGISTRE TODA FALLA ENCONTRADA  </string>
+    <string name="button" />
+
+
+</resources>

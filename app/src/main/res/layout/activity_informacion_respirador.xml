@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformacionRespirador">
+
+
+
+    <TextView
+        android:id="@+id/informacion"
+        android:layout_width="359dp"
+        android:layout_height="85dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/informacion_del_respirador"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+
+        tools:ignore="MissingConstraints"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        />
+
+
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/sensores"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="@string/sensores"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+
+            />
+
+        <TextView
+            android:id="@+id/sensoresDeFlujo"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent"
+            android:background="@color/cardview_shadow_start_color"
+            android:ems="10"
+            android:layout_row="4"
+            android:layout_column="1" />
+
+
+    </TableRow>
+
+
+<TableRow>
+
+    <TextView
+        android:id="@+id/Oxigeno"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/oxigeno"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_row="5"
+        android:layout_column="1" />
+
+
+    <TextView
+        android:id="@+id/oxigeno"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="46dp"
+        android:layout_row="2"
+        android:layout_column="2"
+        android:background="@color/cardview_shadow_start_color"
+        android:ems="10"
+        />
+</TableRow>
+
+<TableRow>
+
+    <TextView
+        android:id="@+id/presion"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/presion"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_row="3"
+        android:layout_column="1" />
+    <TextView
+        android:id="@+id/Presion"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="46dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:ems="10"
+        android:layout_row="8"
+        android:layout_column="0" />
+
+</TableRow>
+
+
+
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00897B"
+        android:gravity="center"
+        android:onClick="regreso_menu"
+        android:text="@string/menu"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sensoresDeFlujo"
+        tools:ignore="MissingConstraints"
+        android:layout_row="10"
+        android:layout_gravity="center"
+        android:layout_column="0" />
+
+
+</TableLayout>

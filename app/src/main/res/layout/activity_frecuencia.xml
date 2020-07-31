@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnOrderPreserved="true"
+    tools:context=".Frecuencia">
+
+    <TextView
+        android:id="@+id/title_frecuecia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/FRECUENCIA"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp" />
+
+
+    <TableRow>
+
+
+        <Button
+            android:id="@+id/enviar-volumen"
+            android:layout_width="161dp"
+            android:layout_height="60dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:backgroundTint="#00897B"
+            android:gravity="center"
+            android:text="@string/Volumen"
+            tools:ignore="MissingConstraints" />
+
+
+        <EditText
+            android:id="@+id/respiracion_minutos"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:background="@color/cardview_shadow_start_color"
+            android:ems="10"
+            android:inputType="number"
+            tools:ignore="MissingConstraints" />
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/enviar-respiracion"
+            android:layout_width="161dp"
+            android:layout_height="60dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:backgroundTint="#00897B"
+            android:gravity="center"
+            android:text="@string/RespiracionPorMinutos"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/Volumen"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:background="@color/cardview_shadow_start_color"
+            android:ems="10"
+            android:inputType="number"
+            tools:ignore="MissingConstraints" />
+
+
+    </TableRow>
+
+    <TableRow>
+
+
+        <Button
+            android:id="@+id/enviar-Inspiracion"
+            android:layout_width="161dp"
+            android:layout_height="60dp"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:backgroundTint="#00897B"
+            android:gravity="center"
+            android:text="@string/Inspiracion"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/espiracion"
+            android:layout_width="161dp"
+            android:layout_height="60dp"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:background="@color/cardview_shadow_start_color"
+            android:ems="10"
+            android:inputType="number"
+            tools:ignore="MissingConstraints" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/enviar-espiracion"
+            android:layout_width="161dp"
+            android:layout_height="60dp"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:backgroundTint="#00897B"
+            android:gravity="center"
+            android:text="@string/espiracion"
+
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/Inspiracion"
+            android:layout_width="161dp"
+            android:layout_height="60dp"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:background="@color/cardview_shadow_start_color"
+            android:ems="10"
+            android:inputType="number"
+            tools:ignore="MissingConstraints" />
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="9"
+        android:layout_column="0"
+        android:backgroundTint="#00897B"
+        android:gravity="center"
+        android:onClick="regreso_menu"
+        android:text="@string/menu"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="539dp" />
+
+
+</TableLayout>

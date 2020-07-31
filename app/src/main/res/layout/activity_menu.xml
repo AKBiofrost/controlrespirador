@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#00FFFFFF"
+    android:orientation="horizontal"
+    tools:context=".Menu">
+
+    <TextView
+        android:id="@+id/Titl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:text="@string/menu"
+        tools:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/Title_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+
+        tools:ignore="MissingConstraints"
+        tools:text="@string/menu"
+
+        />
+
+    <TextView
+        android:id="@+id/Title_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:text="@string/menu"
+        tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/opcion1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:background="#CCFF90"
+
+        android:onClick="Siguiente_frecuencia"
+        android:text="@string/frecuencia"
+        app:layout_constraintBottom_toTopOf="@+id/opcion2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opcion3"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Title_m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+
+        tools:ignore="MissingConstraints"
+        tools:text="@string/menu"
+
+        tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/opcion3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="0"
+
+        android:background="#FFD180"
+
+        android:onClick="Siguiente_informacion"
+        android:text="@string/informacion_del_respirador"
+        app:layout_constraintBottom_toTopOf="@+id/opcion1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Title_menu"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Title_me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+
+        tools:ignore="MissingConstraints"
+        tools:text="@string/menu"
+
+        tools:visibility="invisible" />
+    <Button
+        android:id="@+id/opcion2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:background="#80D8FF"
+
+        android:onClick="Siguiente_giro"
+        android:text="@string/graficas"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opcion1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Title_men"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+
+        tools:ignore="MissingConstraints"
+        tools:text="@string/menu"
+
+        tools:visibility="invisible" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="256dp"
+        android:layout_height="152dp"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/doctor" />
+
+</TableLayout>
